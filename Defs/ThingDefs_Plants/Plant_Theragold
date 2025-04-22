@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDef ParentName="PlantBase" Name="TheragoldBase" Abstract="True">
+<statBases>
+<MaxHitPoints>60</MaxHitPoints>
+<Nutrition>0.2</Nutrition>
+</statBases>
+<graphicData>
+<texPath>TheragoldTutorialMod/Theragold</texPath>
+<graphicClass>Graphic_Random</graphicClass>
+</graphicData>
+<selectable>true</selectable>
+<pathCost>14</pathCost>
+<ingestible/>
+<plant>
+<immatureGraphicPath>Theragold Tutorial Mod/ImmatureTheragold</immatureGraphicPath>
+<growDays>8</growDays>
+<dieIfLeafless>false</dieIfLeafless>
+<harvestWork>400</harvestWork>
+<harvestTag>Standard</harvestTag>
+<harvestedThingDef>RawTheragold</harvestedThingDef>
+<harvestYield>8</harvestYield>
+<topWindExposure>0.1</topWindExposure>
+<visualSizeRange>0.3~1.0</visualSizeRange>
+<wildOrder>2</wildOrder>
+<allowAutoCut>false</allowAutoCut>
+</plant>
+</ThingDef>
+<ThingDef ParentName="TheragoldBase">
+<defName>Plant_Theragold</defName>
+<label>Theragold</label>
+<description>Engineered by a long-forgotten glitterworld, theragolds are a genetically modified cultivar of marigolds intended for seeding on terraformed garden worlds. While not particularly efficient at either, theragolds can be eaten for nutrition or processed into various medicinal products. Its hardiness and relative ease of cultivation makes it a valuable secondary crop for frontier colonies.\n\nThis secondary cultivar of theragold is faster-growing but less hardy, and intended for cultivation by frontier colonies.</description>
+<plant>
+<growDays>5</growDays>
+<sowWork>250</sowWork>
+<sowMinSkill>6</sowMinSkill>
+<sowTags>
+<li>Ground</li>
+<li>Hydroponic</li>
+</sowTags>
+<purpose>Food</purpose>
+</plant>
+</ThingDef>
+<ThingDef ParentName="TheragoldBase">
+<defName>Plant_TheragoldWild</defName>
+<label>wild theragold</label>
+<description>Engineered by a long-forgotten glitterworld, theragolds are a genetically modified cultivar of marigolds intended for seeding on terraformed garden worlds. While not particularly efficient at either, theragolds can be eaten for nutrition or processed into various medicinal products. Its hardiness and relative ease of cultivation makes it a valuable secondary crop for frontier colonies.\n\nThis original cultivar of theragold is hardier but slower-growing than the modified variant intended for human cultivation and can be found growing wild in a variety of biomes.</description>
+<neverMultiSelect>false</neverMultiSelect>
+<plant>
+<wildClusterRadius>4</wildClusterRadius>
+<wildClusterWeight>80</wildClusterWeight>
+</plant>
+<wildBiomes>
+<TemperateForest>0.05</TemperateForest>
+<TemperateSwamp>0.05</TemperateSwamp>
+<BorealForest>0.16</BorealForest>
+<Tundra>0.05</Tundra>
+<ColdBog>0.05</ColdBog>
+<AB_FeraliskInfestedJungle MayRequire="sarg.alphabiomes">0.05</AB_FeraliskInfestedJungle>
+<AB_IdyllicMeadows MayRequire="sarg.alphabiomes">0.05</AB_IdyllicMeadows>
+<ZBiome_AlpineMeadow MayRequire="zylle.MoreVanillaBiomes">0.05</ZBiome_AlpineMeadow>
+<ZBiome_CloudForest MayRequire="zylle.MoreVanillaBiomes">0.05</ZBiome_CloudForest>
+<ZBiome_DesertOasis MayRequire="zylle.MoreVanillaBiomes">0.05</ZBiome_DesertOasis>
+<ZBiome_Grasslands MayRequire="zylle.MoreVanillaBiomes">0.05</ZBiome_Grasslands>
+<ZBiome_Marsh MayRequire="zylle.MoreVanillaBiomes">0.05</ZBiome_Marsh>
+</wildBiomes>
+</plant>
+</ThingDef>
+</Defs>
