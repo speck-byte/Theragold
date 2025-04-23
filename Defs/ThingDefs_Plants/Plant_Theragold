@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ThingDef ParentName="PlantBase" Name="TheragoldBase" Abstract="True">
 <statBases>
-<MaxHitPoints>60</MaxHitPoints>
-<Nutrition>0.2</Nutrition>
+  <MaxHitPoints>60</MaxHitPoints>
+  <Nutrition>0.2</Nutrition>
 </statBases>
 <graphicData>
-<texPath>TheragoldTutorialMod/Theragold</texPath>
-<graphicClass>Graphic_Random</graphicClass>
+  <texPath>TheragoldTutorialMod/Theragold</texPath>
+  <graphicClass>Graphic_Random</graphicClass>
 </graphicData>
 <selectable>true</selectable>
 <pathCost>14</pathCost>
@@ -14,15 +14,15 @@
 <plant>
 <immatureGraphicPath>Theragold Tutorial Mod/ImmatureTheragold</immatureGraphicPath>
 <growDays>8</growDays>
-<dieIfLeafless>false</dieIfLeafless>
-<harvestWork>400</harvestWork>
-<harvestTag>Standard</harvestTag>
-<harvestedThingDef>RawTheragold</harvestedThingDef>
-<harvestYield>8</harvestYield>
-<topWindExposure>0.1</topWindExposure>
-<visualSizeRange>0.3~1.0</visualSizeRange>
-<wildOrder>2</wildOrder>
-<allowAutoCut>false</allowAutoCut>
+  <dieIfLeafless>false</dieIfLeafless>
+  <harvestWork>400</harvestWork>
+  <harvestTag>Standard</harvestTag>
+  <harvestedThingDef>RawTheragold</harvestedThingDef>
+  <harvestYield>8</harvestYield>
+  <topWindExposure>0.1</topWindExposure>
+  <visualSizeRange>0.3~1.0</visualSizeRange>
+  <wildOrder>2</wildOrder>
+  <allowAutoCut>false</allowAutoCut>
 </plant>
 </ThingDef>
 <ThingDef ParentName="TheragoldBase">
@@ -48,7 +48,6 @@
 <plant>
 <wildClusterRadius>4</wildClusterRadius>
 <wildClusterWeight>80</wildClusterWeight>
-</plant>
 <wildBiomes>
 <TemperateForest>0.05</TemperateForest>
 <TemperateSwamp>0.05</TemperateSwamp>
