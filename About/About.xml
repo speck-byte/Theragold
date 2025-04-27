@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+<packageId>Speck.TheragoldTutorialMod</packageId>
+<author>Speck</author>
+<modVersion>1.0</modVersion>
+<supportedVersions>
+<li>1.5</li>
+</supportedVersions>
+<description>This is an example plant mod made for the Rimworld Wiki</description>
+</ModMetaData>
