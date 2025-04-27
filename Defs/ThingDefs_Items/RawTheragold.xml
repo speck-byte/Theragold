@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef Parentname="Plant_RawTheragold">
+		<defName>RawTheragold</defName>
+		<label>theragold flowers</label>
+		<description>Raw theragold flowers. This can be cooked into meals or crafted into various medicinal products</description>
+		<soundDrop>Grain_Drop</soundDrop>
+		<graphicData>
+		<texPath>Theragold Tutorial Mod/RawTheragold</texPath>
+		</graphicData>
+		<statBases>
+		<MarketValue>1.1</MarketValue>
+		</statBases>
+		<ingestible>
+		<foodType>Seed</foodType>
+		</ingestible>
+		<comps>
+		<li Class="CompProperties_Rottable">
+		<daysToRotStart>30</daysToRotStart>
+		<rotDestroys>true</rotDestroys>
+		</li>
+		</comps>
+	</ThingDef>
+</Defs>
